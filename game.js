@@ -7,7 +7,7 @@ let showwinner = (userwin,uservalue,getcomptvalue)=>{
    if(userwin){console.log("you are winner");
    userscore++;
    msg.innerText=userscore;
-   msg3.innerText=`you win! ${uservalue} beats your ${getcomptvalue}`;
+   msg3.innerText=`you win!  your ${uservalue} beats ${getcomptvalue}`;
    msg3.style.backgroundColor="green";
    }
    else{
@@ -56,4 +56,5 @@ const playgame= (uservalue)=>{
     }
  
 };
+
  
